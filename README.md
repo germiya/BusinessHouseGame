@@ -16,7 +16,7 @@ The board cell may be one of the following types.
   b. When user lands on it and has required money, he has to buy it
   c. If any other user lands on a pre owned hotel, user needs to pay Rs.50 to hotel owner
   
-  ## How to play
+  ### How to play
   
   1. Two+ users will start from starting point with initial money
   2. They have to move as per random number b/w 2-12
@@ -24,29 +24,30 @@ The board cell may be one of the following types.
   4. Max ten chances will be awarded to each player
   5. After 10 chances, player with max money will be considerd as winner
   
-  ## Inputs:
+  ### Inputs:
   
-  Number of players: 3
-  Cell Position and types: EEJHETJTEEHJTHEEJHETJTEEHJTHJEEJHETJTEEHJTEHE
-  E -> Empty 
-  J -> Jail
-  T -> Treasure
-  H -> Hotel
+  #### Number of players: 3
+  #### Cell Position and types: EEJHETJTEEHJTHEEJHETJTEEHJTHJEEJHETJTEEHJTEHE
   
-  Dice o/p: 4,4,4,6,7,8,5,11,10,12,2,3,5,6,7,8,5,11,10,12,2,3,5,6,7,8,5,11,10,12
+  . E -> Empty 
+  . J -> Jail
+  . T -> Treasure
+  . H -> Hotel
   
-  Hard coded values:
-  Initial money for each player: 1000
-  Hotel worth: 200
-  Hotel rent: 50
-  Jail fine: 150
-  Treasure value: 200
+  #### Dice o/p: 4,4,4,6,7,8,5,11,10,12,2,3,5,6,7,8,5,11,10,12,2,3,5,6,7,8,5,11,10,12
   
-## Desired o/p:
+  #### Hard coded values:
+  . Initial money for each player: 1000
+  . Hotel worth: 200
+  . Hotel rent: 50
+  . Jail fine: 150
+  . Treasure value: 200
+  
+### Desired o/p:
 
 We need to print total worth of each players in decreasing order.
 Total worth =  money reamining at end + value of all hotel bought by player
 
-Player 1 - 1200
-Player 2 - 1200
-Player 3 - 1050
+. Player 1 - 1200
+. Player 2 - 1200
+. Player 3 - 1050
