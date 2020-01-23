@@ -19,7 +19,7 @@ public class Player {
 		return playerWorth;
 	}
 	public int getPlayerTotalWorthValue() {
-		return (200 * this.hotelsOwned.size()) + playerWorth;
+		return (200 * this.hotelsOwned.size()) + this.playerWorth;
 	}
 	public String getPlayerTotalWorth() {
 		return "Total worth of "+this.playerName+ ":"+ this.getPlayerTotalWorthValue();

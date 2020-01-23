@@ -15,14 +15,16 @@ public class HotelCell extends Cell {
 		// TODO Auto-generated method stub
 		System.out.println("---------------------------");
 		System.out.println("Player worth: "+player.getPlayerWorth());
-		if(this.hotelOwner == null) {
+		if(this.hotelOwner != null) {
 			if(this.hotelOwner != player) {
 				player.decrementPlayerWorth(rent);
+				System.out.println("Hotel accomodated "+ player.playerName);
 			}
 		}
 		else {
 			hotelOwner = player;
 			player.hotelsOwned.add(this);
+			System.out.println("Hotel owned by "+ player.playerName);
 			player.decrementPlayerWorth(price);
 		}
 		this.printCellData(player);
