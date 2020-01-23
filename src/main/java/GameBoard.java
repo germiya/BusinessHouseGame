@@ -47,7 +47,7 @@ public class GameBoard {
         		System.out.print(", Dice Move: "+ arrOfDice[k*i] );
         		System.out.print(", New Pos: "+ cellMove+"\n");
         		
-        		if(cellMove >= 45) cellMove = cellMove % 45;
+        		if(cellMove > 44) cellMove = cellMove % 44;
         		players.get(k).currentCellIndex = cellMove;
         		this.boardCells.get(cellMove).onPlayerLands(players.get(k));
         		
